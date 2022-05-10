@@ -1,0 +1,145 @@
+@keyframes banner{
+    25%{
+        background-image: url('../img/cerozino/bn_cero_1.png');
+        background-position: center bottom;
+    }
+    50%{
+        background-image: url('../img/jam/bn_jam_2.png');
+        background-position: center;
+    }
+    75%{
+        background-image: url('../img/dany/bn_dany_5.png');
+        background-position: center top;
+    }
+    100%{
+        background-image: url('../img/jam/bn_jam_4.png');
+        background-position: center bottom;
+    }
+
+}
+@keyframes jam{
+    25%{
+        background-image: url('../img/jam/bn_jam_2.png');
+    }
+    50%{
+        background-image: url('../img/jam/bn_jam_3.png');
+    }
+    75%{
+        background-image: url('../img/jam/bn_jam_4.png');
+    }
+    100%{
+        background-image: url('../img/jam/bn_jam_5.png');
+    }
+}
+@keyframes cactu{
+    25%{
+        background-image: url('../img/cactu/bn_cac_2.png');
+    }
+    50%{
+        background-image: url('../img/cactu/bn_cac_3.png');
+    }
+    75%{
+        background-image: url('../img/cactu/bn_cac_4.png');
+    }
+    100%{
+        background-image: url('../img/cactu/bn_cac_5.png');
+    }
+}
+@keyframes cerozino{
+    25%{
+        background-image: url('../img/cerozino/bn_cero_2.png');
+    }
+    50%{
+        background-image: url('../img/cerozino/bn_cero_3.png');
+    }
+    75%{
+        background-image: url('../img/cerozino/bn_cero_4.png');
+    }
+    100%{
+        background-image: url('../img/cerozino/bn_cero_5.png');
+    }
+}
+@keyframes dany{
+    25%{
+        background-image: url('../img/dany/bn_dany_2.png');
+    }
+    50%{
+        background-image: url('../img/dany/bn_dany_3.png');
+    }
+    75%{
+        background-image: url('../img/dany/bn_dany_4.png');
+    }
+    100%{
+        background-image: url('../img/dany/bn_dany_5.png');
+    }
+}
+@keyframes economico{
+    25%{
+        background-image: url('../img/economico/bn_econ_2.png');
+    }
+    50%{
+        background-image: url('../img/economico/bn_econ_3.png');
+    }
+    75%{
+        background-image: url('../img/economico/bn_econ_4.png');
+    }
+    100%{
+        background-image: url('../img/economico/bn_econ_5.png');
+    }
+}
+@keyframes raio{
+    25%{
+        background-image: url('../img/raio/bn_raio_2.png');
+    }
+    50%{
+        background-image: url('../img/raio/bn_raio_3.png');
+    }
+    75%{
+        background-image: url('../img/raio/bn_raio_4.png');
+    }
+    100%{
+        background-image: url('../img/raio/bn_raio_5.png');
+    }
+}
+@keyframes android{
+    25%{
+        background-image: url('../img/android/bn_android_2.png');
+    }
+    50%{
+        background-image: url('../img/android/bn_android_3.png');
+    }
+    75%{
+        background-image: url('../img/android/bn_android_4.png');
+    }
+    100%{
+        background-image: url('../img/android/bn_android_1.png');
+    }
+}
+@keyframes awax{
+    25%{
+        background-image: url('../img/awax/bn_awax_2.png');
+    }
+    50%{
+        background-image: url('../img/awax/bn_awax_3.png');
+    }
+    75%{
+        background-image: url('../img/awax/bn_awax_4.png');
+    }
+    100%{
+        background-image: url('../img/awax/bn_awax_5.png');
+    }
+}
+@keyframes medicenter{
+    25%{
+        background-image: url('../img/medicenter/bn_med_2.png');
+    }
+    50%{
+        background-image: url('../img/medicenter/bn_med_3.png');
+    }
+    75%{
+        background-image: url('../img/medicenter/bn_med_4.png');
+    }
+    100%{
+        background-image: url('../img/medicenter/bn_med_1.png');
+    }
+}

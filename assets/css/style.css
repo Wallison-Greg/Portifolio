@@ -1,0 +1,272 @@
+@import url('../css/slide.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 90px;
+    width: 100px;
+}
+.banner{
+    height: calc(100vh - 100px); 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 2.5px 5px rgba(0, 0, 0, 0.76);
+
+    background-image: url('../img/economico/bn_econ_1.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: banner;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.tattoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tattoo .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    flex-direction: column;
+}
+.widget-title{
+    margin: 30px 0px 20px 0px;
+}
+.widget-title-text{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #7a7a7a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+}
+.widget-title-bar{
+    width: auto;
+    height: 2px;
+    background-color:#B98B57;
+}
+.area{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    margin: 15px 10px 5px 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.699);
+    border: 3px solid #B98B57;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.body a:hover{
+    text-decoration: underline;
+}
+.body .t1{
+    background-image: url('../img/jam/bn_jam_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: jam;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .t2{
+    background-image: url('../img/cactu/bn_cac_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: cactu;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .t3{
+    background-image: url('../img/cerozino/bn_cero_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: cerozino;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .area_title{
+    margin-bottom: 30px;
+}
+.mercado{
+    background-color: #FAF4EA;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.685);
+}
+.body .m1{
+    background-image: url('../img/dany/bn_dany_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: dany;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .m2{
+    background-image: url('../img/economico/bn_econ_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: economico;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .m3{
+    background-image: url('../img/raio/bn_raio_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: raio;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .p1{
+    background-image: url('../img/android/bn_android_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: android;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .p2{
+    background-image: url('../img/awax/bn_awax_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: awax;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.body .p3{
+    background-image: url('../img/medicenter/bn_med_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: medicenter;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+footer{
+    background-color: #181A1B;
+    display: flex;
+    justify-content: center;
+}
+footer .container{
+    flex-direction: column;
+}
+footer .inf_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex: 1;
+    border-bottom: 1px solid #7c7c7c;
+}
+.inf_contact .widget-title-text{
+    color: #ADADAD;
+}
+.inf_contact .widget-title-bar{
+    background-color:#B98B57;
+}
+.inf_contact .contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.contato .inf_text{
+    max-width: 210px;
+    text-align: justify;
+    font-size: 13px;
+    color: #ADADAD;
+    margin: 5px 0px 20px 0px;
+}
+.area_cont .desc_cont{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.area_cont .icon_cont{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #7c7c7c;
+}
+.area_cont .cont{
+    font-size: 14px;
+}
+.area_cont .cont a{
+    display: inline-flex;
+    text-decoration: none;
+    color: #ADADAD;
+}
+.area_cont .cont a:hover{
+    color: #B98B57;
+}
+
+@media(max-width: 768px){
+    .area{
+        width: 230px;
+        height: 260px;
+    }
+}
+@media(max-width:425px){
+    .body{
+        flex-direction: column;
+    }
+}
